@@ -12,9 +12,11 @@ Initialize and update submodules for the *puppetlabs/apt* submodule:
 
 ###Puppet Modules
 
-* puppetlabs/apt
+* **puppetlabs/apt** - Puppet module to help manage Apt.
   * [Puppet Forge Homepage](https://github.com/puppetlabs/puppet-apt)
   * [Github Project](https://github.com/puppetlabs/puppet-apt)
-* puppetlabs/stdlib
+* **puppetlabs/stdlib** - This module provides a "standard library" of resources for developing Puppet Modules.
   * [Puppet Forge Homepage](http://forge.puppetlabs.com/puppetlabs/stdlib)
   * [Github Project](https://github.com/puppetlabs/puppetlabs-stdlib)
+* **puppet-rvm** - A puppet module for installing and using RVM (Ruby Version Manager).
+  * [Github Project](https://github.com/blt04/puppet-rvm)
