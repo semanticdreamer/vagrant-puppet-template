@@ -1,0 +1,3 @@
+[submodule "veewee"]
+	path = veewee
+	url = git@github.com:semanticdreamer/veewee-vagrant-box-definitions.git
