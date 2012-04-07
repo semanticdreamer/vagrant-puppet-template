@@ -1,3 +1,6 @@
 [submodule "veewee"]
 	path = veewee
 	url = git@github.com:semanticdreamer/veewee-vagrant-box-definitions.git
+[submodule "puppet/modules/apt"]
+	path = puppet/modules/apt
+	url = https://github.com/puppetlabs/puppet-apt.git
