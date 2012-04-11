@@ -7,3 +7,6 @@
 [submodule "puppet/modules/rvm"]
 	path = puppet/modules/rvm
 	url = https://github.com/blt04/puppet-rvm.git
+[submodule "puppet/modules/stdlib"]
+	path = puppet/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
