@@ -7,12 +7,3 @@
 [submodule "puppet/modules/rvm"]
 	path = puppet/modules/rvm
 	url = https://github.com/blt04/puppet-rvm.git
-[submodule "puppet/modules/stdlib"]
-	path = puppet/modules/stdlib
-	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
-[submodule "puppet/modules/build-couchdb"]
-	path = puppet/modules/build-couchdb
-	url = git@github.com:semanticdreamer/puppet-build-couchdb.git
-[submodule "puppet/modules/couchdb-debian"]
-	path = puppet/modules/couchdb-debian
-	url = git@github.com:semanticdreamer/puppet-couchdb-debian.git

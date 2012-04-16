@@ -10,15 +10,10 @@ group { "puppet":
 /**
  * Stages
  */
-# stage {"pre": before => Stage["rvm-install"]}
-stage {"pre": before => Stage["main"]}
+stage {"pre": before => Stage["rvm-install"]}
 /**
  * Classes
  */
-class { "couchdb-debian":
-    version => "1.1.1-2",
-    bind_address => "0.0.0.0"
-}
 class { "apt":
     stage => "pre",
     always_apt_update => true
@@ -27,6 +22,4 @@ class { "apt":
  * Include modules
  */
 include apt
-#include rvm
-include couchdb-debian
-#include build-couchdb
+include rvm
