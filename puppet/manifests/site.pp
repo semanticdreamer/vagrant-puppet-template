@@ -23,3 +23,4 @@ class { "apt":
  */
 include apt
 include rvm
+include ruby
