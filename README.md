@@ -4,16 +4,11 @@ Either [Forke this repo](http://help.github.com/fork-a-repo/) or add it as a sub
 
     git submodule add git@github.com:semanticdreamer/vagrant-puppet-template.git ./vagrant-puppet
     git submodule init && git submodule update
+    cd ./vagrant-puppet && git submodule init && git submodule update && cd ../
 
 ##Requirements
 
-* Vagrant box `debian-6.0.4-squeeze-server`. For build instructions and requirements see project [veewee-vagrant-box-definitions][veewee-vagrant-box-definitions].
-
-##Install
-
-Initialize and update submodule(s) for the *puppetlabs/apt* submodule:
-
-    cd ./vagrant-puppet && git submodule init && git submodule update && cd ../
+* Vagrant box `debian-6.0.4-squeeze-server`. For build instructions and requirements see project [veewee-vagrant-box-definitions][veewee-vagrant-box-definitions].    
 
 ##Usage
 
