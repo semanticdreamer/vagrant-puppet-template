@@ -5,7 +5,11 @@ Either [Forke this repo](http://help.github.com/fork-a-repo/) or add it as a sub
     git submodule add git@github.com:semanticdreamer/vagrant-puppet-template.git ./vagrant-puppet
     git submodule init && git submodule update
 
-##Setup
+##Requirements
+
+* Vagrant box `debian-6.0.4-squeeze-server`. For build instructions and requirements see project [veewee-vagrant-box-definitions][veewee-vagrant-box-definitions].
+
+##Install
 
 Initialize and update submodule(s) for the *puppetlabs/apt* submodule:
 
@@ -23,7 +27,9 @@ Due to the way *Puppet* works, we need to run `vagrant provision` once after `va
 
 Note: Ignoring the red console messages/ warnings (i.e. `stdin: is not a tty`, `tput: unknown terminal "unknown"` and `warning: class variable access from toplevel`) should be ok ;-).
 
-##Credits & Dependencies
+##Dependencies
+
+The following projects are used as submodules:
 
 * [puppetlabs/apt](https://github.com/puppetlabs/puppet-apt) - Puppet module to help manage Apt.
 * [puppetlabs/stdlib](https://github.com/puppetlabs/puppetlabs-stdlib) - Puppet module providing a "standard library" of resources for developing Puppet Modules.
@@ -33,3 +39,4 @@ Note: Ignoring the red console messages/ warnings (i.e. `stdin: is not a tty`, `
 
 [Puppet]: http://puppetlabs.com/ "Puppet"
 [Vagrant]: http://vagrantup.com/ "Vagrant"
+[veewee-vagrant-box-definitions]: https://github.com/semanticdreamer/veewee-vagrant-box-definitions
