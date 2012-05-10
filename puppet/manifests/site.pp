@@ -18,9 +18,13 @@ class { "apt":
     stage => "pre",
     always_apt_update => true
 }
+# class { 'nodejs':
+#     version => 'stable'
+# }
 /**
  * Include modules
  */
 include apt
 include rvm
 include ruby
+#include nodejs
