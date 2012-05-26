@@ -3,8 +3,7 @@
 Either [Forke this repo](http://help.github.com/fork-a-repo/) or add it as a submodule to kickstart your own project.
 
     git submodule add git@github.com:semanticdreamer/vagrant-puppet-template.git ./vagrant-puppet
-    git submodule init && git submodule update
-    cd ./vagrant-puppet && git submodule init && git submodule update && cd ../
+    git submodule update --init --recursive
 
 ##Requirements
 
