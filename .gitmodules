@@ -13,3 +13,9 @@
 [submodule "puppet/modules/nodejs"]
 	path = puppet/modules/nodejs
 	url = git@github.com:danheberden/puppet-nodejs.git
+[submodule "puppet/modules/couchdb-debian"]
+	path = puppet/modules/couchdb-debian
+	url = git@github.com:semanticdreamer/puppet-couchdb-debian.git
+[submodule "puppet/modules/build-couchdb"]
+	path = puppet/modules/build-couchdb
+	url = git@github.com:semanticdreamer/puppet-build-couchdb.git
