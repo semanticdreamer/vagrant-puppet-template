@@ -5,7 +5,7 @@ class ruby {
      rvm_system_ruby {
          "ruby-1.9.2-p320":
              ensure => "present",
-             default_use => true;
+             default_use => false;
          }
      rvm_gem {
         "puppet":
